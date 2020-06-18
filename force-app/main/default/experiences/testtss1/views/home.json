@@ -1,0 +1,66 @@
+{
+  "appPageId" : "f1086d6d-e30d-4d23-a596-aefee2de49c4",
+  "componentName" : "siteforce:sldsThreeCol444Layout",
+  "id" : "1afc17ba-cbd0-4d1c-be0a-1a38d10606d3",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "maxWidth" : 100,
+        "overlayColor" : "rgba(0,0,0,0.4)",
+        "overlayHoverColor" : "",
+        "radius" : 0,
+        "showTitle" : false,
+        "textAlignment" : "center",
+        "textBgColor" : "rgba(0,0,0,0)",
+        "textBgHoverColor" : "rgba(0,0,0,0)",
+        "textColor" : "",
+        "textHoverColor" : "",
+        "textPosition" : "center center",
+        "title" : "Featured Topics"
+      },
+      "componentName" : "forceTopic:featuredTopics",
+      "id" : "3793a5fd-404f-4750-bf4a-2090ac08d494",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "aeb47d47-ae84-4fae-8195-46810f7ee210",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "2dd3ebee-7423-4b6c-b991-f5b6de4fcf00",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "4a58028f-9d65-475c-b999-45baae4440a0",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "6839557f-3c3d-4862-9657-f7b599234ccd",
+    "regionName" : "sidebarAlt",
+    "type" : "region"
+  }, {
+    "id" : "46b1a65e-781c-4347-ac44-a22838e1c7a5",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "metaTags" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1d0af344-ac9b-4f18-a55a-e150189cc1ed",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9314bcac-43f5-46c8-94c3-9fa8a054e7c1",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}
